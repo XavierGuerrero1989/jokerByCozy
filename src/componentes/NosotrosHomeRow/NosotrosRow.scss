@@ -1,0 +1,27 @@
+@import "../../scss/abstracts/variables";
+@import "../../scss/abstracts/responsive";
+
+.mainRow{
+    margin: 25px;
+}
+
+.foto{
+    border-radius: 80px 80px 80px 80px;
+    height: 70vh;
+
+    @include tablet {
+        height: 35vh;
+    }
+
+    @include movil {
+        height: 35vh;
+    }
+}
+
+.mainRow__title{
+    font-size: 3rem;
+}
+
+.mainRow__text{
+    font-size: 1.5rem;
+}

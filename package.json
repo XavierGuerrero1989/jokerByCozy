@@ -1,0 +1,33 @@
+{
+  "name": "comicsproyect",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "preview"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.1.3",
+    "emailjs-com": "^3.2.0",
+    "firebase": "^9.9.2",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.4.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
+    "sass": "^1.53.0",
+    "sweetalert2": "^11.7.31",
+    "sweetalert2-react-content": "^5.0.7",
+    "swiper": "^10.3.1",
+    "url-loader": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.0",
+    "vite": "^3.0.0"
+  }
+}

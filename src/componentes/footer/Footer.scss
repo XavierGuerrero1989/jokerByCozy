@@ -1,0 +1,35 @@
+@import "../../scss/abstracts/variables";
+@import "../../scss/abstracts/responsive";
+
+.footerCtn{
+    background-color: black;
+    color: white;
+}
+
+.footer-icon{
+    width: 40px;
+    margin: 20px;
+}
+
+.footer-icon2{
+    width: 25px;
+    margin: 5px;
+}
+
+.flechaTexto{
+    text-decoration: none !important;
+    color: white;
+
+    &:hover{
+        color: $amarillo;
+    }
+}
+
+.footerLink{
+    text-decoration: none;
+    color: white;
+
+    &:hover{
+        color: $amarillo;
+    }
+}

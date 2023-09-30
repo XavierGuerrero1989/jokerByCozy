@@ -1,0 +1,14 @@
+@use './scss/base/resets';
+@use './scss/base/base';
+@use './scss/abstracts/responsive';
+@use './scss/abstracts/variables';
+@use './componentes/nabvar/Navbar.scss';
+@use './componentes/Home/home.scss';
+@use './componentes/Hero/Hero.scss';
+@use './componentes/NosotrosHomeRow/NosotrosRow.scss';
+@use './componentes/ServiciosRow/ServiciosRow.scss';
+@use './componentes/Carousel/Carousel.scss';
+@use './componentes/Contacto/Contacto.scss';
+@use './componentes/footer/Footer.scss';
+@use './componentes/FloatWpp/FloatWpp.scss';
+@use './componentes/404/NotFound.scss';

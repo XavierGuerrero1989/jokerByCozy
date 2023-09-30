@@ -1,0 +1,31 @@
+@import "../../scss/abstracts/variables";
+@import "../../scss/abstracts/responsive";
+
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+
+    @include tablet {
+        bottom: 70px;
+        right: 70px;
+    }
+
+    @include movil {
+        bottom: 70px;
+        right: 70px;
+    }
+  }
+  
+  .whatsapp-icon {
+    width: 60px; /* Tamaño de tu icono de WhatsApp */
+    height: 60px;
+    border-radius: 50%;
+    border: solid #25d366 3px;
+    background-color: white; /* Color de fondo de WhatsApp */
+    padding: 10px;
+  }
+
+  

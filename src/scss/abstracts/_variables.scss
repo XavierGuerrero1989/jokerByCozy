@@ -1,0 +1,15 @@
+// colores
+$amarillo: #ffef19;
+$negro: black;
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&family=Nunito:wght@500&display=swap');
+$fontnormal: 'Comic Neue', cursive;
+$fonttitulo: 'Nunito', sans-serif;
+
+:export {
+    negro: $negro;
+    amarillo: $amarillo;
+    normal: $fontnormal;
+    titulo: $fonttitulo;
+}
